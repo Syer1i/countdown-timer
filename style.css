@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url("Snow.jpeg");
+    background-position:center ;
+  }
+  .countdown-container {
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .date-time-picker input {
+    border-radius:20px;
+    padding:10px 20px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .timer {
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top:40px;
+  }
+  #timerDisplay{
+    padding:20px 30px;
+    background-color: #dba4f4;
+    border-radius:10px;
+    border:2px solid black;
+  }
+
+  #startBtn{
+    background-color:#5ee45e;
+    padding:10px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size:20px;
+    color:white;
+  }
+  #pauseBtn{
+    background-color:#4670ec;
+    padding:10px 20px;
+    border-radius: 15px;
+    color:white;
+    border:2px solid black;
+    font-weight: bold;
+    font-size:20px;
+  }
+  #resetBtn{
+    background-color:#df2a2a;
+    padding:10px 20px;
+    border-radius: 15px;
+    color:white;
+    border:2px solid black;
+    font-weight: bold;
+    font-size:20px;
+  }
